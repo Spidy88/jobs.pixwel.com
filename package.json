@@ -1,0 +1,22 @@
+{
+  "name": "jobs.pixwel.com",
+  "version": "1.0.0",
+  "description": "Application submission tool for Pixwel",
+  "main": "index.js",
+  "repository": "https://github.com/Spidy88/jobs.pixwel.com",
+  "author": "Nick Ferraro <the.nick.ferraro@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint *.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.13.0",
+    "request": "2.83.0",
+    "request-promise": "4.2.2"
+  },
+  "devDependencies": {
+    "eslint": "^4.17.0"
+  }
+}
